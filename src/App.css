@@ -1,0 +1,75 @@
+.App-logo {
+  width: 180px;
+  height: 100px;
+  float: left;
+  margin: 20px;
+}
+.header {
+  background-color: rgb(0, 0, 0);
+  height: 150px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.search-btn {
+  width: 20px;
+  height: 20px;
+}
+.search {
+  margin: 50px 70px;
+  width: 30%;
+  float: right;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.search-input {
+  width: 70%;
+}
+.btn-danger {
+  background-color: red;
+  border: none;
+}
+.wrapper {
+  margin: 200px auto;
+  display: grid;
+  grid-template-columns: 50% 40%;
+  grid-gap: 20px;
+}
+.detail-wrapper {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.detail-wrapper img {
+  padding: 20px;
+  cursor: pointer;
+}
+h6 {
+  margin-bottom: 10px;
+}
+h6.description {
+  margin-top: 20px;
+}
+.list-group-item{
+  margin: 0;
+}
+.list-group-item:first-child {
+  margin-left: 30px;
+}
+.video-List{
+  margin:0;
+}
+.media-heading h3{
+  margin:30px 0 ;
+}
+.single-video{
+  width: 80%;
+  margin: 0 auto;
+}
+.video-body{
+  width: 90%;
+  margin: auto;
+}
